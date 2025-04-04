@@ -1,0 +1,20 @@
+{
+  "email-server": {
+    "autoApprove": [],
+    "disabled": false,
+    "timeout": 60,
+    "command": "node",
+    "args": [
+      "e:/Work/DG/MCP/mailer-mcp/dist/index.js"
+    ],
+    "env": {
+      "SMTP_HOST": "smtp.smtp2go.com",
+      "SMTP_PORT": "2525",
+      "SMTP_USER": "your-email@example.com",
+      "SMTP_PASSWORD": "your-password",
+      "EMAIL_FROM": "your-email@example.com",
+      "SMTP_TIMEOUT": "30000"
+    },
+    "transportType": "stdio"
+  }
+}
